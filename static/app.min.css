@@ -1,0 +1,115 @@
+footer#footer {
+	padding: 20px 0 120px 0;
+	font-size: 16px
+}
+
+footer#footer .container{
+    width: 100%;
+    max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+@media (max-width: 992px) {
+	footer#footer {
+		font-size: 14px
+	}
+}
+
+@media (max-width: 767px) {
+	footer#footer {
+		padding: 10px 0 85px 0;
+		font-size: 12px
+	}
+}
+
+footer#footer .copyright p {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: center;
+    color: #8a8a8a;
+}
+
+footer#footer .member {
+	width: 100%;
+	height: 100px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 8;
+	background: #111;
+	transform: translateY(100px);
+	display: flex;
+	flex-wrap: initial;
+	align-items: center;
+	justify-content: initial;
+	flex-direction: initial;
+	display: -webkit-flex;
+	-webkit-flex-wrap: initial;
+	-webkit-align-items: center;
+	-webkit-justify-content: initial;
+	-webkit-flex-direction: initial
+}
+
+@media (max-width: 767px) {
+	footer#footer .member {
+		height: 75px;
+		transform: translateY(75px)
+	}
+}
+
+footer#footer .member .container {
+	display: flex;
+	flex-wrap: initial;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: initial;
+	display: -webkit-flex;
+	-webkit-flex-wrap: initial;
+	-webkit-align-items: center;
+	-webkit-justify-content: space-between;
+	-webkit-flex-direction: initial
+}
+
+footer#footer .member h3 {
+    font-size: 24px;
+    font-weight: 900;
+	margin: 0 0 10px 0
+}
+
+@media (max-width: 767px) {
+	footer#footer .member h3 {
+		font-size: 20px
+	}
+}
+
+footer#footer .member h4 {
+	font-weight: 400;
+    font-size: 14px;
+    margin: 0;
+}
+
+@media (max-width: 767px) {
+	footer#footer .member h4 {
+		font-size: 12px
+	}
+}
+
+footer#footer .member a {
+	color: #fff;
+	display: block;
+	padding: 0 0 3px 0;
+	border-bottom: 2px solid #FFFF00;
+	transition-property: color;
+	transition-duration: .2s;
+	transition-timing-function: ease;
+	-webkit-transition-property: color;
+	-webkit-transition-duration: .2s;
+	-webkit-transition-timing-function: ease
+}
+
+footer#footer .member a:hover {
+	color: #FFFF00;
+	text-decoration: none
+}
