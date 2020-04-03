@@ -3,9 +3,9 @@ footer#footer {
 	font-size: 16px
 }
 
-footer#footer .container{
-    width: 100%;
-    max-width: 1200px;
+footer#footer .container {
+	width: 100%;
+	max-width: 1200px;
 	margin: 0 auto;
 	padding: 0 15px;
 }
@@ -24,11 +24,11 @@ footer#footer .container{
 }
 
 footer#footer .copyright p {
-    margin: 0;
-    font-size: 12px;
-    font-weight: 300;
-    text-align: center;
-    color: #8a8a8a;
+	margin: 0;
+	font-size: 12px;
+	font-weight: 400;
+	text-align: center;
+	color: #a8a8a8;
 }
 
 footer#footer .member {
@@ -38,7 +38,7 @@ footer#footer .member {
 	bottom: 0;
 	left: 0;
 	z-index: 8;
-	background: #111;
+	background: #15272b;
 	transform: translateY(100px);
 	display: flex;
 	flex-wrap: initial;
@@ -73,8 +73,8 @@ footer#footer .member .container {
 }
 
 footer#footer .member h3 {
-    font-size: 24px;
-    font-weight: 900;
+	font-size: 24px;
+	font-weight: 900;
 	margin: 0 0 10px 0
 }
 
@@ -86,8 +86,8 @@ footer#footer .member h3 {
 
 footer#footer .member h4 {
 	font-weight: 400;
-    font-size: 14px;
-    margin: 0;
+	font-size: 14px;
+	margin: 0;
 }
 
 @media (max-width: 767px) {
