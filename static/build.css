@@ -560,11 +560,11 @@ button::-moz-focus-inner {
 }
 
 .cover__wrapper {
-    bottom: 3%;
+    bottom: 40%;
     /* left: -10%; */
     position: relative;
     width: 100%;
-    max-width: 80%
+    max-width: 70%
 }
 
 .cover__title {
@@ -602,7 +602,7 @@ button::-moz-focus-inner {
 
 .cover__share {
     height: 35px;
-    /* margin-top: 10px; */
+    margin-top: 10px;
     margin-left: 5px;
     display: block
 }
@@ -969,7 +969,7 @@ button::-moz-focus-inner {
 
 @media (max-width:1024px) and (orientation:portrait) {
     .cover__wrapper {
-        bottom: 5%;
+        bottom: 40%;
         left: 0;
         max-width: 100%;
         padding: 1em
