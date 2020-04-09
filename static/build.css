@@ -560,7 +560,7 @@ button::-moz-focus-inner {
 }
 
 .cover__wrapper {
-    bottom: 40%;
+    bottom: 15px;
     /* left: -10%; */
     position: relative;
     width: 100%;
@@ -602,7 +602,6 @@ button::-moz-focus-inner {
 
 .cover__share {
     height: 35px;
-    margin-top: 10px;
     margin-left: 5px;
     display: block
 }
@@ -657,7 +656,7 @@ button::-moz-focus-inner {
 
 .cover__caption {
     right: 10px;
-    bottom: 10px;
+    bottom: 15%;
     position: absolute;
     color: hsla(0, 0%, 100%, .7);
     font-size: 12px;
@@ -969,18 +968,19 @@ button::-moz-focus-inner {
 
 @media (max-width:1024px) and (orientation:portrait) {
     .cover__wrapper {
-        bottom: 40%;
+        bottom: 3%;
         left: 0;
         max-width: 100%;
-        padding: 1em
+        padding: .7em
     }
 
     .cover__share--twitter {
-        width: 25px
+        width: 22px;
+        margin-left: -5px;
     }
 
     .cover__share--facebook {
-        width: 20px
+        width: 18px
     }
 
     .cover {
