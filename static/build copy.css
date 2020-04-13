@@ -678,7 +678,7 @@ button::-moz-focus-inner {
     margin: 0 auto;
 }
 
-.menu__box {
+.menu li {
     width: 45%;
     /* border: 2px solid #ffce00; */
     background-color: #ffce00;
@@ -687,18 +687,17 @@ button::-moz-focus-inner {
     font-size: 1.1em;
     font-weight: 700;
     line-height: 2.2em;
+    transition: all 1s;
 }
 
 .showmenu {
+    position: fixed;
     display: none;
-}
-
-.mobile-menu {
-    display: none;
-    background-color: #ffce00;
-    text-align: center;
-    color: #000000;
-    font-weight: 700;
+    float: right;
+    text-decoration: none;
+    color: #ea7070;
+    font-weight: 600;
+    padding: 1em;
 }
 
 .article {
@@ -921,6 +920,40 @@ button::-moz-focus-inner {
 
 .article .ad>div:before {
     left: 1.333333em
+}
+
+@media(max-width: 768px) {
+    .menu {
+        /*隱藏選單開始*/
+        max-height: 0;
+        overflow: hidden;
+        /*隱藏選單end*/
+        position: absolute;
+        /*追隨.header*/
+        /*讓選單從左到右延伸start*/
+        right: 0;
+        left: 0;
+        /*讓選單從左到右延伸end*/
+        top: 67px;
+        /*把menu-list位置移到.header下方。點擊menu滑出/因沒設header高度，所以用開發者工具看高多少*/
+        z-index: 100;
+        transition: all 2s;
+    }
+
+    .menu li {
+        float: none;
+        border-bottom: 1px solid #ea7070;
+        background: #f5f4e8;
+    }
+
+    .showmenu {
+        display: block;
+    }
+
+    /*jQ點擊後動態在 body 加上 class */
+    .menu-show .menu {
+        max-height: 336px;
+    }
 }
 
 @media (max-width:1024px) {
